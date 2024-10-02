@@ -11,8 +11,22 @@ client = OpenAI(api_key = OPENAI_API_KEY)
 ##################################################
 def main():
 
+    bg='''
+    <style>
+    [data-testid="stAppViewContainer"]{
+    background-image: url("https://img.freepik.com/premium-photo/wine-wooden-table-background-blurred-wine-shop-with-bottles_191555-1126.jpg?w=1060");
+    bacjground-size: container;
+    }
+    [data-testid="stHeader"]{
+    background-color: rgba(0,0,0,0);
+    }
+    </style>
+    '''
+
+    st.markdown(bg, unsafe_allow_html = True)
+
     # Título
-    st.header('Recomendaciones de vinos')
+    st.title('Recomendaciones de vinos')
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
