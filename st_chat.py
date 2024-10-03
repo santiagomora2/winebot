@@ -20,6 +20,9 @@ def main():
     [data-testid="stMainBlockContainer"]{
     background-color: rgba(0,0,0,.5);
     }    
+    [data-testid="stAppViewBlockContainer"]{
+    background-color: rgba(0,0,0,.5);
+    } 
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
