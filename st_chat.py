@@ -15,8 +15,11 @@ def main():
     <style>
     [data-testid="stAppViewContainer"]{
     background-image: url("https://img.freepik.com/premium-photo/wine-wooden-table-background-blurred-wine-shop-with-bottles_191555-1126.jpg?w=1060");
-    bacjground-size: container;
+    background-size: container;
     }
+    [data-testid="stMainBlockContainer"]{
+    background-color: rgba(0,0,0,.5);
+    }    
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
