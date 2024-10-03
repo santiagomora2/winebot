@@ -26,6 +26,9 @@ def main():
     [data-testid="stHeader"]{
     background-color: rgba(0,0,0,0);
     }
+    [data-testid="stMarkdown"]{
+    color: rgb(255,255,255);
+    }
     </style>
     '''
 
